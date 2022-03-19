@@ -1,0 +1,276 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  height: 5em;
+  color: white;
+  background-color: rgb(3, 3, 3);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+img {
+  height: 50px;
+}
+
+.nav div {
+  width: 50%;
+  margin-left: 3em;
+  margin: 10px 20px;
+}
+
+.nav div p:nth-child(3) {
+  font-weight: bold;
+}
+
+.button {
+  color: whitesmoke;
+  background-color: lightseagreen;
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+  border-width: 3px;
+
+  box-shadow: 5px 5px black;
+  margin-right: 7em;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.col-3 {
+  flex: 3;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.profile {
+  height: 100%;
+  padding: 1em;
+  width: 100%;
+}
+
+.connections {
+  height: 100%;
+  padding: 1em;
+  width: 100%;
+}
+
+.user-card-1 {
+  flex-direction: column;
+  border: 2px solid gray;
+  height: 400px;
+  width: 90%;
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+  margin-bottom: 2em;
+  margin-left: 3em;
+}
+
+.user-card-2 {
+  flex-direction: column;
+  border: 2px solid gray;
+  height: 200px;
+  width: 90%;
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+  margin-bottom: 1em;
+  margin-left: 3em;
+}
+
+.user-card-3 {
+  flex-direction: column;
+  border: 2px solid gray;
+  height: 200px;
+  width: 90%;
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+  margin-bottom: 2em;
+  margin-right: 3em;
+}
+.user-card-4 {
+  flex-direction: column;
+  border: 2px solid gray;
+  height: 400px;
+  width: 90%;
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+  margin-bottom: 1em;
+  margin-right: 3em;
+}
+
+.user-body {
+  flex: 4;
+  margin-left: 1em;
+}
+.user-banner {
+  flex: 1;
+  background-color: #18a2b8;
+}
+
+#profile-picture {
+  margin-left: 5%;
+  height: 0.5em;
+  width: 10em;
+  border-radius: 50%;
+}
+
+/* .user-card div:first-child {
+  background-color: mediumblue;
+  height: 30%;
+  width: 100%;
+  margin-bottom: 20%;
+} */
+.edit-profile {
+  height: 5px;
+  width: 10px;
+}
+
+.color {
+  height: 150px;
+  background-color: #333333;
+}
+#located {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#located img {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
+
+#bio {
+  margin: 10px 0;
+}
+
+#profile-picture {
+  padding: 4px;
+  border: solid 1px;
+  border-radius: 90%;
+  margin: 20px;
+  height: 150px;
+  margin-top: 3em;
+  position: absolute;
+  background-color: mintcream;
+}
+
+.content {
+  padding: 30px;
+  position: relative;
+}
+
+#name {
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+
+#edit {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin-top: 1em;
+}
+
+#edit img {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
+
+.poster {
+  background-color: #333333;
+  padding: 10px;
+}
+
+.heading {
+  font-size: small;
+  color: white;
+}
+
+.circles {
+  background-color: #cccccc;
+  padding: 5px;
+  margin-right: 6px;
+  border-radius: 50%;
+  color: black;
+}
+
+.friend {
+  display: flex;
+  padding-bottom: 4px;
+  border: 1px solid gray;
+  align-items: center;
+}
+
+.friend p {
+  padding-left: 5px;
+}
+
+.friendicon {
+  height: 40px;
+  padding: 2px;
+}
+
+.accept {
+  padding: 2px;
+  height: 30px;
+}
+
+.decline {
+  padding: 2px;
+  height: 30px;
+}
+
+.info {
+  padding: 10px;
+}
+
+.schoolname {
+  padding-bottom: 5px;
+  font-size: x-large;
+}
+
+#your-connections {
+  height: auto;
+  padding-bottom: 0px;
+}
+
+.date {
+  color: gray;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-bottom: 10px;
+}
+
+.stacks {
+  font-size: medium;
+}
+
+.view-more {
+  border-top: 2px solid;
+  display: block;
+  padding: 10px;
+  padding-left: 12px;
+}
+
+.main {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
